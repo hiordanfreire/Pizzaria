@@ -1,0 +1,6 @@
+#banner nav ul li {
+    display: inline-flex; 
+}
+#banner nav ul li a {
+     color: #fff;
+}
