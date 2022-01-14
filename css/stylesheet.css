@@ -39,16 +39,19 @@ body{
     font-size: 32px;
 }
 #sabores-pizzas table {
+    border-collapse: collapse; /*Remove os espaços entre a tabele*/
     width: 80%;
     margin: 0 auto;
 }
 
 #sabores-pizzas table td,
 #sabores-pizzas table th {
+    border: 1px solid #000;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-size: 12px;
     font-family: 'Helvetica Neue', sans-serif;
+    padding: 25px;
 }
 
